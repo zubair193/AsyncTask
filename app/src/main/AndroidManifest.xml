@@ -22,6 +22,7 @@
             android:name=".RecyclerViewActivity"
             android:label="@string/title_activity_recycler_view"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DisplayInfoActivity"></activity>
     </application>
 
 </manifest>

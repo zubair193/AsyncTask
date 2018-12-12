@@ -30,7 +30,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
 
 
         RecyclerView my_rcview = (RecyclerView) findViewById(R.id.recyclerview_id);
-        MyAdapter madapter = new MyAdapter(data_info);
+        MyAdapter madapter = new MyAdapter(this, data_info);
         my_rcview.setLayoutManager(new LinearLayoutManager(this));
         my_rcview.setAdapter(madapter);
 
